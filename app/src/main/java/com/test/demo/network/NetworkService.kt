@@ -1,5 +1,6 @@
-package com.example.testandroidapplication.network
-import com.example.testandroidapplication.model.Album
+package com.test.demo.network
+
+import com.test.demo.model.Album
 import io.reactivex.Single
 import retrofit2.http.GET
 

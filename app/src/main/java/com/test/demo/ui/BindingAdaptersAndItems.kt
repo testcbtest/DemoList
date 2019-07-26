@@ -1,4 +1,4 @@
-package com.example.testandroidapplication.ui.adapters
+package com.test.demo.ui
 
 import android.arch.lifecycle.MutableLiveData
 import android.arch.lifecycle.Observer

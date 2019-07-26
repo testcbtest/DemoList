@@ -1,11 +1,11 @@
-package com.example.testandroidapplication.injection.module
+package com.test.demo.injection.module
 
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkInfo
-import com.example.testandroidapplication.network.NetworkService
 import com.test.demo.BuildConfig.BASE_URL
 import com.test.demo.MainApplication
+import com.test.demo.network.NetworkService
 import dagger.Module
 import dagger.Provides
 import dagger.Reusable

@@ -1,13 +1,14 @@
-package com.example.testandroidapplication.injection.component
+package com.test.demo.injection.component
 
-import com.example.testandroidapplication.injection.module.NetworkModule
+import com.test.demo.injection.module.NetworkModule
+import com.test.demo.ui.vm.PostAlbumsViewModel
 import dagger.Component
 import javax.inject.Singleton
 
 @Singleton
 @Component(modules = [(NetworkModule::class)])
 interface InjectorViewModel {
-
+    fun inject(postViewModel: PostAlbumsViewModel)
 
     @Component.Builder
     interface Builder {

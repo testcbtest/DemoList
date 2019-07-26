@@ -1,4 +1,4 @@
-package com.example.testandroidapplication.ui.adapters
+package com.test.demo.ui
 
 import android.content.ContextWrapper
 import android.support.v7.app.AppCompatActivity

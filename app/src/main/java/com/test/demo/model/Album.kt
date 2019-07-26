@@ -1,5 +1,4 @@
-package com.example.testandroidapplication.model
-
+package com.test.demo.model
 /*
 Create Album model
  */
